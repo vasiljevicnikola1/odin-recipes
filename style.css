@@ -1,0 +1,45 @@
+h1, h2 {
+    background-color: #bb2649;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Monaco', 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Monaco', 'Arial', sans-serif;
+    color: #0602f7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ef02f7;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #dac0d1;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 400px;
+    font-style: italic;
+}
+
+img {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+}
+
+p, li {
+    font-size: 20px;
+    color: #460a39;
+    font-family: 'Monaco', 'Arial', sans-serif;
+}
