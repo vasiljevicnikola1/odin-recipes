@@ -1,3 +1,12 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2 {
     background-color: #bb2649;
     color: #ffffff;
@@ -15,7 +24,7 @@ a {
 }
 
 a:hover {
-    color: #ef02f7;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -43,3 +52,38 @@ p, li {
     color: #460a39;
     font-family: 'Monaco', 'Arial', sans-serif;
 }
+
+.ul-link-index {
+    display: inline-block;
+    background-color: rgb(199, 144, 236);
+    margin: 0px;
+    padding: 5px;
+    width: 250px;
+    text-align: center;
+
+}
+
+.ul-link-index:hover {
+    background-color: #b80190;
+}
+
+
+.ul-holder {
+    margin-top: 40px;
+    text-align: right;
+}
+
+
+.index-ul {
+    display: inline-block;
+    font-size: 0;
+    padding: 0px;
+    border-color: #b80190;
+    border: solid #b80190;
+    background-color: #000000;
+    text-align: right;
+}
+
+
+
+
